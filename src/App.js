@@ -4,7 +4,6 @@ import { Route, Switch } from "react-router-dom";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 
-//todo create auth route that checks condition and directs to desired page or home page
 class App extends React.Component {
   render() {
     return (
