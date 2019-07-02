@@ -12,7 +12,7 @@ export default class Table extends React.Component {
       {
         Header: "Email",
         accessor: "email",
-        Cell: e => <a href={e.value}> {e.value} </a>
+        Cell: e => <a href={`mailto:${e.value}`}> {e.value} </a>
       },
       {
         Header: "City",
